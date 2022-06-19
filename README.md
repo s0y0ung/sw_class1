@@ -1,4 +1,4 @@
-# sw_class2 merge conflict
+# sw_class
 2022년 성균관대학교 SW코칭 저장소
 
 ## GitHub를 통해서 배워보는 기업용 파일 버전관리, 데브옵스 (DevOps)" 수업
@@ -19,3 +19,7 @@
 ## 수업 소개
 ### Advisor: [@BryantSon](https://github.com/bryantson)
 [해당 레포](https://github.com/BryantSon-Class/Week1-GitHubClass-SKG)의 내용을 따라 난이도 있는 미션들을 달성하며 🏃 문제들을 풀어 나갈 예정입니다! ⛰️ 🔥
+
+## 실습
+1주차 
+2주차 merge conflict 해결

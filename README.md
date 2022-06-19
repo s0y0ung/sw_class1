@@ -1,4 +1,4 @@
-# sw_class1
+# sw_class2 merge conflict
 2022년 성균관대학교 SW코칭 저장소
 
 ## GitHub를 통해서 배워보는 기업용 파일 버전관리, 데브옵스 (DevOps)" 수업

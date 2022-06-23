@@ -2,7 +2,6 @@
 2022년 성균관대학교 SW코칭 저장소
 
 ## GitHub를 통해서 배워보는 기업용 파일 버전관리, 데브옵스 (DevOps)" 수업
-# merge conflict
 
 ![137653022-15381990-c9eb-45e7-af82-4881fc3f0d19 (1)](https://user-images.githubusercontent.com/5396174/172204919-9ffb3993-1670-492e-a739-2efc25f9e8c3.gif)
 
@@ -22,4 +21,5 @@
 [해당 레포](https://github.com/BryantSon-Class/Week1-GitHubClass-SKG)의 내용을 따라 난이도 있는 미션들을 달성하며 🏃 문제들을 풀어 나갈 예정입니다! ⛰️ 🔥
 
 ## 실습
-2주차 Pull Request Merge Conflict 를 깃허브에서 해결하기 위한 코드
+# 2주차 
+    Pull Request Merge Conflict를 깃허브에서 해결하기 위한 코드

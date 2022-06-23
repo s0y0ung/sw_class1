@@ -21,5 +21,5 @@
 [해당 레포](https://github.com/BryantSon-Class/Week1-GitHubClass-SKG)의 내용을 따라 난이도 있는 미션들을 달성하며 🏃 문제들을 풀어 나갈 예정입니다! ⛰️ 🔥
 
 ## 실습
-# 2주차 
-    Pull Request Merge Conflict를 깃허브에서 해결하기 위한 코드
+
+2주차 Pull Request Merge Conflict 해결 완료

@@ -22,5 +22,4 @@
 
 ## 실습
 
-2주차 Pull Request Merge Conflict 를 깃허브에서 해결하기 위한 코드입니다.
-
+2주차 Pull Request Merge Conflict 해결 완료

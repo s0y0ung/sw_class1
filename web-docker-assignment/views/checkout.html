@@ -1,0 +1,223 @@
+<html>
+  <head>
+    <title>Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/css/checkout.css">
+    <script type="text/javascript" src="../../public/script/checkout.js">
+      
+    </script>
+  </head>
+  <body class="bg-light">
+
+    <svg xmlns="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg" style="display: none;">
+      <symbol id="check" viewBox="0 0 16 16">
+        <title>안드로이드 폰 구매</title>
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+    </svg>
+    
+    <div class="container">
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a class="me-3 py-2 text-dark text-decoration-none" href="../product/index.html">홈</a>
+                <a class="me-3 py-2 text-dark text-decoration-none" href="../price/index.html">가격</a>
+                <a class="me-3 py-2 text-dark text-decoration-none" href="index.html">쇼핑카트</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <h2>안드로이드 폰 구매</h2>
+            <p class="lead">iPhone 8 이후 모델을 보상 판매하고 \70,000 - \720,000 더 저렴하게</p>
+        </div>
+    
+        <div class="row g-5">
+            <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-primary">쇼핑카트</span>
+                <span class="badge bg-primary rounded-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                    <h6 class="my-0">제품이름</h6>
+                    <small class="text-muted">가장 기본 모델</small>
+                </div>
+                <span class="text-muted">\950,000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                    <h6 class="my-0">새로운 이어폰</h6>
+                    <small class="text-muted">최신 모델</small>
+                </div>
+                <span class="text-muted">\100,000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                <div class="text-success">
+                    <h6 class="my-0">디스카운트</h6>
+                    <small>GITHUB</small>
+                </div>
+                <span class="text-success">\10,000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                <span>가격 (\)</span>
+                <strong>\1040,000</strong>
+                </li>
+            </ul>
+    
+            <form class="card p-2">
+                <div class="input-group">
+                <input type="text" class="form-control" placeholder="Promo code">
+                <button type="submit" class="btn btn-secondary" onclick="javascript:code_btn()">프로모션 쿠폰 적용하기</button>
+                </div>
+            </form>
+            </div>
+            <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">주소</h4>
+            <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                <div class="col-sm-6">
+                    <label for="firstName" class="form-label">이름</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                    Valid first name is required.
+                    </div>
+                </div>
+    
+                <div class="col-sm-6">
+                    <label for="lastName" class="form-label">성</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                    Valid last name is required.
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <label for="username" class="form-label">깃허브 유저네임</label>
+                    <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                    <div class="invalid-feedback">
+                        Your username is required.
+                    </div>
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <label for="address" class="form-label">주소</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="invalid-feedback">
+                    Please enter your shipping address.
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                    <label for="address2" class="form-label">주소 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+    
+                <div class="col-md-5">
+                    <label for="country" class="form-label">나라</label>
+                    <select class="form-select" id="country" required>
+                    <option value="">Choose...</option>
+                    <option>United States</option>
+                    </select>
+                    <div class="invalid-feedback">
+                    Please select a valid country.
+                    </div>
+                </div>
+                </div>
+    
+                <hr class="my-4">
+    
+                <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">받는 주소가 빌딩 주소와 같습니다</label>
+                </div>
+    
+                <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">다음을 위해 입력한 정보를 저장해주세요</label>
+                </div>
+    
+                <hr class="my-4">
+    
+                <h4 class="mb-3">결제 방법</h4>
+    
+                <div class="my-3">
+                <div class="form-check">
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <label class="form-check-label" for="credit">Credit card</label>
+                </div>
+                <div class="form-check">
+                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="debit">Debit card</label>
+                </div>
+                <div class="form-check">
+                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="paypal">PayPal</label>
+                </div>
+                </div>
+    
+                <div class="row gy-3">
+                <div class="col-md-6">
+                    <label for="cc-name" class="form-label">카드 이름</label>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <small class="text-muted">Full name as displayed on card</small>
+                    <div class="invalid-feedback">
+                    Name on card is required
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <label for="cc-number" class="form-label">카드 번호</label>
+                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    <div class="invalid-feedback">
+                    Credit card number is required
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <label for="cc-expiration" class="form-label">유효기간</label>
+                    <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                    <div class="invalid-feedback">
+                    Expiration date required
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <label for="cc-cvv" class="form-label">CVV</label>
+                    <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                    <div class="invalid-feedback">
+                    Security code required
+                    </div>
+                </div>
+                </div>
+    
+                <hr class="my-4">
+    
+                <button class="w-100 btn btn-primary btn-lg" onclick="javascript:checkout_btn()" type="submit">checkout</button>
+
+            </form>
+            </div>
+        </div>
+        </main>
+    
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1"> </p>
+        </footer>
+    </div>
+  </body>
+   
+</html>

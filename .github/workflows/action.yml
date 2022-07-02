@@ -10,7 +10,7 @@ on:
       - "**"
 jobs:
   Hw4-GitHub-Action:
-    runs-on: ubuntu-laatest
+    runs-on: ubuntu-latest
     name: hw4 깃허브 액션 연습하기 🚀
 
     steps:

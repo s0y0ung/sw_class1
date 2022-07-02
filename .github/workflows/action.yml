@@ -20,7 +20,6 @@ jobs:
         uses: actions/checkout@v3
       - name: 현재 디렉토리 다시 체크 ✅
         run: ls -al
-        run: cat .github/workflows/action.yml
       - name: 폴더에 다운로드 받기 ✨
         uses: actions/checkout@v3
         with:

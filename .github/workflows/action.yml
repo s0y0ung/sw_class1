@@ -25,4 +25,5 @@ jobs:
         with:
           path: our-source
         run: ls -al
+      - name: 현재 폴더 체크 ✨✅
         run: ls -al our-source

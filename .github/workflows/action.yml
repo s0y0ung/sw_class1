@@ -1,0 +1,29 @@
+name: hw4 깃허브 액션 연습하기
+
+# PR이 만들어졌거나 master 브랜치에 머지되어 올라갈 때 수행합니다.
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - "**"
+jobs:
+  Hw4-GitHub-Action:
+    runs-on: ubuntu-laatest
+    name: hw4 깃허브 액션 연습하기 🚀
+
+    steps:
+      - name: 현재 디렉토리 체크 ✅
+        run: ls -al
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: 현재 디렉토리 다시 체크 ✅
+        run: ls -al
+        run: cat .github/workflows/action.yml
+      - name: 폴더에 다운로드 받기 ✨
+        uses: actions/checkout@v3
+        with:
+          path: our-source
+        run: ls -al
+        run: ls -al our-source

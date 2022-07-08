@@ -1,6 +1,6 @@
 # Final-Project-Idea
 
-## updata and send the latest news
+## update and send the latest news
 
 제출 형식: 깃허브 액션 :octocat:
 

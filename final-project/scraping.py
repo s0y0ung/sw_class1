@@ -35,7 +35,6 @@ req.encoding= None
 html = req.content
 soup = BeautifulSoup(html, 'html.parser')
 
-
 # start scraping
 datas = soup.select(
     'div.list_body.newsflash_body > ul.type06_headline > li > dl > dt'

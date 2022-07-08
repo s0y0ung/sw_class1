@@ -47,30 +47,54 @@ datas = soup.select(
 datas_photo= soup.select(
     'div.list_body.newsflash_body > ul.type06_headline > li > dl > dt.photo'
     )
-print(datas)
-print(datas_photo)
-data = {}
+
+# data = {}
+data=list()
 i=1
 for title,title_photo in zip(datas,datas_photo): 
     if title_photo.select_one('a') is not None:
         imgurl=title_photo.select_one('a').find("img")['src']
-        print(imgurl)
     else:
         imgurl='none'
     name = title.text.strip()
     url = title['href']
     print('{0}번째 뉴스\n name: {1} \n url: {2} \n imgurl: {3}'.format(i,name,url,imgurl))
-    data[name]=[url,imgurl]
+    # data[i]=[[name, url,imgurl]]
+    data.append(dict({'name':name, 'url':url,'imgurl': imgurl}))
     i=i+1
     
 
-with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
+with open(os.path.join(BASE_DIR, 'news_latest.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
 print('뉴스기사 스크래핑 끝')
 
+print('새롭게 업데이트 되었는지 체크 합니다 ✅')
+news_title_oldest=[]
+news_title_latest=[]
+print(os.path.join(BASE_DIR, 'news.json'))
+with open(os.path.join(BASE_DIR, 'news.json'),'r',encoding='utf-8') as f:
+    content=json.load(f)
+    print('* 기존의 뉴스')
+    news_title_oldest=list(content.keys())
+    print(news_title_oldest)
+    print(len(news_title_oldest))
+    with open(os.path.join(BASE_DIR, 'news_latest.json'),'r',encoding='utf-8') as f2:
+        latest_content=json.load(f2)
+        print('* 최신의 뉴스')
+        for item in latest_content:
+            # print(list(item.values())[0])
+            news_title_latest.append(list(item.values())[0])
+        print(news_title_latest)
+        print(len(news_title_latest))
 
-    
+        if(news_title_latest[0]!=news_title_oldest[0]):
+            print('새롭게 업데이트된 뉴스가 있습니다')
+            print(latest_content[0])
+        else:
+            print('업데이트 되지 않았습니다')
+
+
 
     
 

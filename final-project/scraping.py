@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import json
 import os
 import sys
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_request(section):
@@ -22,8 +21,13 @@ def get_request(section):
         "세계" : 104,
         "과학" : 105
     }
+    para={
+        'mode':'LS2D',
+        'mid':'shm',
+        'sid1':sections[section],
+    }
 
-    req = requests.get(url, headers = custom_header, params={"sid1": sections[section]})
+    req = requests.get(url, headers = custom_header, params=para)
     print(url)
     return req
 
@@ -38,17 +42,35 @@ soup = BeautifulSoup(html, 'html.parser')
 
 # start scraping
 datas = soup.select(
-    'div.list_body.newsflash_body > ul.type06_headline > li > dl > dt'
+    'div.list_body.newsflash_body > ul.type06_headline > li > dl > dt:not(.photo) > a'
     )
-
+datas_photo= soup.select(
+    'div.list_body.newsflash_body > ul.type06_headline > li > dl > dt.photo'
+    )
+print(datas)
+print(datas_photo)
 data = {}
-
-for title in datas:   
-    name = title.find_all('a')[0].text
-    url = 'http:'+title.find('a')['href']
-    data[name] = url
+i=1
+for title,title_photo in zip(datas,datas_photo): 
+    if title_photo.select_one('a') is not None:
+        imgurl=title_photo.select_one('a').find("img")['src']
+        print(imgurl)
+    else:
+        imgurl='none'
+    name = title.text.strip()
+    url = title['href']
+    print('{0}번째 뉴스\n name: {1} \n url: {2} \n imgurl: {3}'.format(i,name,url,imgurl))
+    data[name]=[url,imgurl]
+    i=i+1
+    
 
 with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
     json.dump(data, json_file, ensure_ascii = False, indent='\t')
 
 print('뉴스기사 스크래핑 끝')
+
+
+    
+
+    
+

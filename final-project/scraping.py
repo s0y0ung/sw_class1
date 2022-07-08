@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 import sys
+from pathlib import Path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_request(section):
@@ -62,39 +63,50 @@ for title,title_photo in zip(datas,datas_photo):
     # data[i]=[[name, url,imgurl]]
     data.append(dict({'name':name, 'url':url,'imgurl': imgurl}))
     i=i+1
-    
-
-with open(os.path.join(BASE_DIR, 'news_latest.json'), 'w+',encoding='utf-8') as json_file:
-    json.dump(data, json_file, ensure_ascii = False, indent='\t')
-
 print('뉴스기사 스크래핑 끝')
 
-print('새롭게 업데이트 되었는지 체크 합니다 ✅')
-news_title_oldest=[]
-news_title_latest=[]
-print(os.path.join(BASE_DIR, 'news.json'))
-with open(os.path.join(BASE_DIR, 'news.json'),'r',encoding='utf-8') as f:
-    content=json.load(f)
-    print('* 기존의 뉴스')
-    news_title_oldest=list(content.keys())
-    print(news_title_oldest)
-    print(len(news_title_oldest))
-    with open(os.path.join(BASE_DIR, 'news_latest.json'),'r',encoding='utf-8') as f2:
-        latest_content=json.load(f2)
-        print('* 최신의 뉴스')
-        for item in latest_content:
+if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
+    print('새롭게 업데이트 되었는지 체크 합니다 ✅')
+    news_title_oldest=[]
+    news_title_latest=[]
+    news_latest={}
+    # print(os.path.join(BASE_DIR, 'news.json'))
+
+    with open(os.path.join(BASE_DIR, 'news_latest.json'), 'w+',encoding='utf-8') as json_file:
+        json.dump(data, json_file, ensure_ascii = False, indent='\t')
+    with open(os.path.join(BASE_DIR, 'news.json'),'r',encoding='utf-8') as f:
+        old_content=json.load(f)
+        print('* 기존의 뉴스')
+        for item in old_content:
             # print(list(item.values())[0])
-            news_title_latest.append(list(item.values())[0])
-        print(news_title_latest)
-        print(len(news_title_latest))
+            news_title_oldest.append(list(item.values())[0])
+        print(news_title_oldest)
+        print(len(news_title_oldest))
+        with open(os.path.join(BASE_DIR, 'news_latest.json'),'r',encoding='utf-8') as f2:
+            latest_content=json.load(f2)
+            print('* 최신의 뉴스')
+            for item in latest_content:
+                # print(list(item.values())[0])
+                news_title_latest.append(list(item.values())[0])
+            print(news_title_latest)
+            print(len(news_title_latest))
 
-        if(news_title_latest[0]!=news_title_oldest[0]):
-            print('새롭게 업데이트된 뉴스가 있습니다')
-            print(latest_content[0])
-        else:
-            print('업데이트 되지 않았습니다')
+            if(news_title_latest[0]!=news_title_oldest[0]):
+                print('새롭게 업데이트된 뉴스가 있습니다')
+                print(latest_content[0])
+                news_latest=latest_content[0]
+                with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as json_file2:
+                    json.dump(news_latest, json_file2, ensure_ascii = False, indent='\t')
+            else:
+                print('업데이트 되지 않았습니다')
+
+            #news.json을 news_latest.json으로 변환하는 작업
+            data_file=Path(os.path.join(BASE_DIR, 'news_latest.json'))
+            os.remove(os.path.join(BASE_DIR, 'news.json'))
+            data_file.rename('news.json')
 
 
-
-    
+else: 
+    with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
+        json.dump(data, json_file, ensure_ascii = False, indent='\t')
 

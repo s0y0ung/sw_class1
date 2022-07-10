@@ -1,0 +1,31 @@
+name: Run Auto Readme Generator 
+
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.9.5
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.9"
+          architecture: "x64"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip 
+          pip install -r final-project/requirements.txt
+      - name: Auto Readme Generator
+        run: |
+          python "update-readme.py"
+      - name: Commits
+        run: |
+          git config --local user.email "gsafe1213@gmail.com" # 커밋한 사람 이메일
+          git config --local user.name "djc06048" # 커밋한 사람 이름
+          git add README.md # 생성한 README 파일을 스테이징 
+          git commit -m "auto - update readme file" # 커밋 메세지
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          branch: "master"
+          github_token: $

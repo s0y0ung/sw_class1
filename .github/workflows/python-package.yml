@@ -45,10 +45,10 @@ jobs:
       id: git
       shell: bash
       run: |
-      RESULT = $(git status)
-      if [[ $RESULT == *"modified:"* ]]; then
-        echo "::set-output name=status::true"
-      fi
+        RESULT = $(git status)
+        if [[ $RESULT == *"modified:"* ]]; then
+          echo "::set-output name=status::true"
+        fi
     - name: Commit
       if: contains(steps.Status.oututs.result, 'true')
       run:  git commit -m "Auto - Update data with Scraping" # 커밋 메세지

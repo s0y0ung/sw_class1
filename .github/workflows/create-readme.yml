@@ -17,9 +17,11 @@ jobs:
           pip install -r final-project/requirements.txt
       - name: Auto Readme Generator
         run: |
-          python "update-readme.py"
+          python3 "final-project/update-readme.py"
       - name: Commits
         run: |
+          cd final-project
+          ls -al
           git config --local user.email "gsafe1213@gmail.com" # 커밋한 사람 이메일
           git config --local user.name "djc06048" # 커밋한 사람 이름
           git add README.md # 생성한 README 파일을 스테이징 

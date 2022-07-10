@@ -30,7 +30,7 @@ jobs:
         python -m pip install --upgrade pip
         pwd
         ls -al
-        pip install -r requirements.txt
+        pip install -r final-project/requirements.txt
     - name: Run Scraper with python
       run: |
         echo "before run scraping.py"

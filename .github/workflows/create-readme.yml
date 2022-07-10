@@ -27,7 +27,7 @@ jobs:
           # git add README.md # 생성한 README 파일을 스테이징 
           git commit -m "auto - update readme file" # 커밋 메세지
       - name: md파일 확인하기
-          ls -al
+        run: ls -al
       - name: Push
         uses: ad-m/github-push-action@master
         with:

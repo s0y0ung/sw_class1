@@ -50,7 +50,7 @@ jobs:
           echo "::set-output name=status::true"
         fi
     - name: Commit
-      if: contains(steps.git-check.oututs.result, 'true');
+      if: contains(steps.git-check.oututs.result, 'true')
       run: git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push
       uses: ad-m/github-push-action@master

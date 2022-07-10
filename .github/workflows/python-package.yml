@@ -40,7 +40,7 @@ jobs:
         ls -al
         git config --local user.name "soyoung"
         git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
-        git add news.json
+        git add news_latest.json
     - name: Status
       id: git-check
       shell: bash

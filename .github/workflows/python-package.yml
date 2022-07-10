@@ -36,9 +36,11 @@ jobs:
         echo "after run scraping.py"
     - name: Commits
       run: |
-        git config --global user.name "soyoung"
-        git config --global user.email "psy99326@gamil.com" # 커밋에 포함될 이름
-        git add final-project/news.json
+        cd final-project
+        ls -al
+        git config --local user.name "soyoung"
+        git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
+        git add news.json
         git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push
       uses: ad-m/github-push-action@master

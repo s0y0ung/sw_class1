@@ -34,7 +34,7 @@ jobs:
     - name: Run Scraper with python
       run: |
         echo "before run scraping.py"
-        python3 "scraping.py"
+        python3 final-project/scraping.py
         echo "after run scraping.py"
     - name: Commits
       run: |

@@ -34,6 +34,8 @@ jobs:
         echo "before run scraping.py"
         python3 final-project/scraping.py
         echo "after run scraping.py"
+        cd final-project
+        ls -al
     - name: Commits
       run: |
         cd final-project

@@ -34,7 +34,8 @@ def get_request(section):
 
 
 # get category and url
-section = input('"정치, 경제, 사회, 생활, 세계, 과학" 중 하나를 입력하세요.\n')
+# section = input('"정치, 경제, 사회, 생활, 세계, 과학" 중 하나를 입력하세요.\n')
+section = "정치"
 req = get_request(section)
 req.encoding= None
 html = req.content

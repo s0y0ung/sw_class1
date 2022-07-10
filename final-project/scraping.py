@@ -101,10 +101,10 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
             else:
                 print('업데이트 되지 않았습니다')
 
-            #news.json을 news_latest.json으로 변환하는 작업
+            #news_latest.json을 news.json으로 변환하는 작업
             data_file=Path(os.path.join(BASE_DIR, 'news_latest.json'))
             os.remove(os.path.join(BASE_DIR, 'news.json'))
-            data_file.rename('news.json')
+            data_file.rename(os.path.join(BASE_DIR, 'news.json'))
 
 
 else: 

@@ -1,0 +1,23 @@
+name: hw4 깃허브 액션 연습하기
+
+# PR이 만들어졌거나 master 브랜치에 머지되어 올라갈 때 수행합니다.
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches:
+      - "**"
+jobs:
+  GitHub-Action-Demo:
+    runs-on: ubuntu-latest
+    name: hw4 깃허브 액션 데모
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: check directory
+        run: ls -al
+      - name: Run multi-line script
+        run: |
+          echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+          echo "🔎 The name of branch is ${{ github.ref }} and repository is ${{ github.repository }}."

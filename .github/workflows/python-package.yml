@@ -42,16 +42,16 @@ jobs:
         git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
         git add news.json
     - name: Status
-      id: git
+      id: git-check
       shell: bash
       run: |
         RESULT=$(git status)
-        if [[ $RESULT == *"modified:"* ]]; then
+        if [[ $RESULT == *"modified"* ]]; then
           echo "::set-output name=status::true"
         fi
     - name: Commit
-      if: contains(steps.Status.oututs.result, 'true')
-      run:  git commit -m "Auto - Update data with Scraping" # 커밋 메세지
+      if: contains(steps.git-check.oututs.result, 'true');
+      run: git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push
       uses: ad-m/github-push-action@master
       with:

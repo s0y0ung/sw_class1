@@ -45,7 +45,7 @@ jobs:
       id: git
       shell: bash
       run: |
-        RESULT = $(git status)
+        RESULT=$(git status)
         if [[ $RESULT == *"modified:"* ]]; then
           echo "::set-output name=status::true"
         fi

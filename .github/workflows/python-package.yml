@@ -38,8 +38,6 @@ jobs:
         echo "after run scraping.py"
     - name: Commits
       run: |
-        # git config --local user.email "gsafe1213@gmail.com"
-        # git config --local user.name "update news" # 커밋에 포함될 이름
         git add news.json
         git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push

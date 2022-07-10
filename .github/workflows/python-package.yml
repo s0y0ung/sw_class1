@@ -5,7 +5,7 @@ name: Run Scraper - Update data # 워크플로우 이름 지정
 
 on:
   schedule:
-    - cron:  '*/2 * * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
+    - cron:  '*/5 * * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
 jobs:
   build:
 
@@ -34,14 +34,24 @@ jobs:
         echo "after run scraping.py"
         cd final-project
         ls -al
-    - name: Commit
+    - name: Staging
       run: |
         cd final-project
         ls -al
         git config --local user.name "soyoung"
         git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
         git add news.json
-        git commit -m "Auto - Update data with Scraping" # 커밋 메세지
+    - name: Status
+      id: git
+      shell: bash
+      run: |
+        RESULT = $(git status)
+        if [[ $RESULT == *"modified:"* ]]; then
+          echo "::set-output name=status::true"
+        fi
+    - name: Commit
+      if: contains(steps.Status.oututs.result, 'true')
+      run:  git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push
       uses: ad-m/github-push-action@master
       with:

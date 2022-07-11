@@ -39,8 +39,6 @@ jobs:
         python3 "final-project/update-readme.py"
     - name: Commit
       run: |
-        cd final-project
-        ls -al
         git config --local user.name "soyoung"
         git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
         # git add news_latest_one.json

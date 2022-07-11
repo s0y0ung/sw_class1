@@ -13,6 +13,8 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
     new_content=json.load(f)
   with open(os.path.join(BASE_DIR, 'news_prev_one.json'),'r',encoding='utf-8') as f2:
     prev_content=json.load(f2)
+  readme = open(os.path.join('docs', 'index.md'), "a")
+  readme.write(" # The News Letter\n\n")
 
   for i in range(len(prev_content)):    
     readme = open(os.path.join('docs', 'index.md'), "a")
@@ -22,7 +24,8 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
     prev_url=prev_item['url']
     prev_sec=prev_item['sec']
     # readme.write('<div style="border: 2px solid #34a1eb; padding:10px;">\n\n')
-    readme.write("| ### section : " + prev_sec+"|\n\n")
+    readme.write("***\n\n")
+    readme.write(" # section : " + prev_sec+"\n\n")
     # 업데이트 되었는지 확인
     if 'name' in new_item:
       new_title=new_item['name']

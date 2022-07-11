@@ -1,4 +1,6 @@
-<div style="border: 2px solid #34a1eb; padding:10px;## section : polictics
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : polictics
 
 📝 뉴스 제목 : 전문가 "北 '저강도 도발' 속 숨어있는 '복합위협' 간파해야"
 
@@ -10,7 +12,9 @@
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;## section : economy
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : economy
 
 📝 뉴스 제목 : 염승열 목포세관장 취임…"지역경제 활성화 역량 집중"
 
@@ -22,7 +26,9 @@
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;## section : science
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : science
 
 새롭게 업데이트 된 뉴스가 없습니다.
 
@@ -32,7 +38,9 @@
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;## section : society
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : society
 
 📝 뉴스 제목 : 광주 송정로 1번길에선 차보다 사람 먼저…보행자 우선도로 선정
 
@@ -44,7 +52,9 @@
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;## section : life
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : life
 
 새롭게 업데이트 된 뉴스가 없습니다.
 
@@ -54,7 +64,9 @@
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;## section : world
+<div style="border: 2px solid #34a1eb; padding:10px;">
+
+## section : world
 
 📝 뉴스 제목 : 17시간 줄섰다…뉴욕 뒤흔든 K-Pop 인기
 

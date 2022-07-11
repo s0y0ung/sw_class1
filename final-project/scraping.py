@@ -63,9 +63,9 @@ def category():
                 imgurl='none'
             name = title.text.strip()
             url = title['href']
-            print(sec+ '의 {0}번째 뉴스\n name: {1} \n url: {2} \n imgurl: {3}'.format(i,name,url,imgurl))
+            # print(sec+ '의 {0}번째 뉴스\n name: {1} \n url: {2} \n imgurl: {3}'.format(i,name,url,imgurl))
             # data[i]=[[name, url,imgurl]]
-            data.append(dict({'name':name, 'url':url,'imgurl': imgurl}))
+            data.append(dict({'name':name, 'url':url,'imgurl': imgurl, 'sec' : sec}))
             i=i+1
         print('뉴스기사 스크래핑 끝')
 

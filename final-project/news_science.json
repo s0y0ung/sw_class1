@@ -1,52 +1,62 @@
 [
 	{
-		"name": "어메이즈핏, 스마트워치 '빕3' 신제품 출시",
-		"url": "https://n.news.naver.com/mnews/article/030/0003029527?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/11/3029527.jpg?type=nf106_72"
+		"name": "큐로셀 “상업화 대비한 CAR-T 설비, 내년 3월 완공 목표”",
+		"url": "https://n.news.naver.com/mnews/article/015/0004722639?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/015/2022/07/11/4722639.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "국민 10명 중 7명 \"기초연구 투자 중요성 공감\"...선진국 대비 역량은 낮아",
-		"url": "https://n.news.naver.com/mnews/article/030/0003029526?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/11/3029526.jpg?type=nf106_72"
+		"name": "이종호 장관, 통신3사 CEO 간담회 참석",
+		"url": "https://n.news.naver.com/mnews/article/001/0013302637?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302637.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "SK텔레콤, 가상자산·NFT 담는 '웹3 디지털 지갑' 만든다",
-		"url": "https://n.news.naver.com/mnews/article/417/0000831187?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/417/2022/07/11/831187.jpg?type=nf106_72"
+		"name": "이종호 장관, 통신3사 CEO 간담회 참석",
+		"url": "https://n.news.naver.com/mnews/article/001/0013302635?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302635.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "메타파인즈 “저독성 대사항암제 개발…2025년 상장 추진”",
-		"url": "https://n.news.naver.com/mnews/article/015/0004722588?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/015/2022/07/11/4722588.jpg?type=nf106_72"
+		"name": "통신3사 CEO 간담회 참석한 이종호 장관",
+		"url": "https://n.news.naver.com/mnews/article/001/0013302633?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302633.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "한국 AI 스타트업, 해외 최고 권위 AI학회에서 인정받았다",
-		"url": "https://n.news.naver.com/mnews/article/015/0004722587?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/015/2022/07/11/4722587.jpg?type=nf106_72"
+		"name": "크래프톤, SW 인재 양성 '크래프톤 정글' 추진",
+		"url": "https://n.news.naver.com/mnews/article/629/0000160137?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/629/2022/07/11/160137.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "“5만9천원·24GB”…SKT, 5G 중간요금제 나온다",
-		"url": "https://n.news.naver.com/mnews/article/119/0002619827?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/119/2022/07/11/2619827.jpg?type=nf106_72"
+		"name": "\"포드와 폭스바겐이 사랑한\" 자율주행 스타트업,  갑작스런 감원...무슨일?",
+		"url": "https://n.news.naver.com/mnews/article/138/0002128356?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/138/2022/07/11/2128356.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "마이크로바이오틱스 \"내년 슈퍼박테리아 치료제 임상 1상 목표\"",
-		"url": "https://n.news.naver.com/mnews/article/015/0004722585?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/015/2022/07/11/4722585.jpg?type=nf106_72"
+		"name": "과학기술정보통신부-이동통신3사 CEO 간담회",
+		"url": "https://n.news.naver.com/mnews/article/421/0006209841?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/421/2022/07/11/6209841.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "삼화페인트, 해외사업 앞세워 반전 나선다",
-		"url": "https://n.news.naver.com/mnews/article/293/0000039745?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/293/2022/07/11/39745.jpg?type=nf106_72"
+		"name": "이종호 장관, 이동통신 3사 대표와 간담회",
+		"url": "https://n.news.naver.com/mnews/article/421/0006209835?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/421/2022/07/11/6209835.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "부산정보산업진흥원, AI 산업 지산학 협력체계 구축",
-		"url": "https://n.news.naver.com/mnews/article/003/0011297115?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/003/2022/07/11/11297115.jpg?type=nf106_72"
+		"name": "3년 만에 귀환 IFA, 삼성·LG 등 韓기업 130곳 참여",
+		"url": "https://n.news.naver.com/mnews/article/030/0003029568?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/11/3029568.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "애플 5G 아이폰, 콜롬비아서 판매 금지... 에릭슨 특허 침해 판결",
-		"url": "https://n.news.naver.com/mnews/article/030/0003029517?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/11/3029517.jpg?type=nf106_72"
+		"name": "모두발언하는 이종호 장관",
+		"url": "https://n.news.naver.com/mnews/article/421/0006209830?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/421/2022/07/11/6209830.jpg?type=nf106_72",
+		"sec": "science"
 	}
 ]

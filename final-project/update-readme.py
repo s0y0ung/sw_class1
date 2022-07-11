@@ -10,16 +10,29 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
   os.remove(os.path.join('docs', 'index.md'))
 
   with open(os.path.join(BASE_DIR, 'news_latest_one.json'),'r',encoding='utf-8') as f:
-    content=json.load(f)
-    for item in content:
-      title=item['name']
-      url=item['url']
-      imageurl=item['imgurl']
-      sec=item['sec']
+    new_content=json.load(f)
+  with open(os.path.join(BASE_DIR, 'news_prev_one.json'),'r',encoding='utf-8') as f2:
+    prev_content=json.load(f2)
 
-      readme = open(os.path.join('docs', 'index.md'), "a")
-      readme.write("### section : " + sec+"\n")
-      readme.write("📝 뉴스 제목 : " + title+"\n")
-      readme.write("![image]("+ imageurl+")" +"        ")
-      readme.write("🔗 [link]("+ url + ")\n")
-      readme.close()
+  for i in range(len(prev_content)):    
+    readme = open(os.path.join('docs', 'index.md'), "a")
+    new_item = new_content[i]
+    prev_item = prev_content[i]
+    prev_title=prev_item['name']
+    prev_url=prev_item['url']
+    prev_sec=prev_item['sec']
+    readme.write("### section : " + prev_sec+"\n")
+    # 업데이트 되었는지 확인
+    if 'name' in new_item:
+      new_title=new_item['name']
+      new_url=new_item['url']
+      new_imageurl=new_item['imgurl']
+
+      readme.write("📝 뉴스 제목 : " + new_title+"<br/>")
+      readme.write("![image]("+ new_imageurl+")" +"        ")
+      readme.write("🔗 [link]("+ new_url + ")<br/>")
+    else:
+      readme.write("새롭게 업데이트 된 뉴스가 없습니다.<br/>")
+      
+    readme.write("이전 뉴스 : [" + prev_title + "]("+ prev_url + ")<br/>")
+    readme.close()

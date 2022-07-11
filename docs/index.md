@@ -1,12 +1,7 @@
-📝 뉴스 제목 : 조선신보, 北 전술핵무기 선제공격 성격 재차 언급
-![image](https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302640.jpg?type=ofullfill106_72)        🔗 [link](https://n.news.naver.com/mnews/article/056/0011299815?sid=100)
-📝 뉴스 제목 : 행공, 충북 괴산군에서 찾아가는 공제회 진행
-![image](https://imgnews.pstatic.net/image/origin/014/2022/07/11/4865353.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/014/0004865353?sid=101)
-📝 뉴스 제목 : 큐로셀 “상업화 대비한 CAR-T 설비, 내년 3월 완공 목표”
-![image](https://imgnews.pstatic.net/image/origin/015/2022/07/11/4722639.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/015/0004722639?sid=105)
-📝 뉴스 제목 : 과학기술정부통신부 장관-통신사 CEO 간담회
-![image](https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302650.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/001/0013302650?sid=102)
-📝 뉴스 제목 : 조성진, 8월 31일 연세대 노천극장서 쇼팽 협주곡 연주
-![image](https://imgnews.pstatic.net/image/origin/079/2022/07/11/3662882.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/079/0003662882?sid=103)
-📝 뉴스 제목 : 차이잉원, 일본대표부 방문해 아베 전 총리에 조의
-![image](https://imgnews.pstatic.net/image/origin/421/2022/07/11/6209853.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/421/0006209853?sid=104)
+### section : polictics
+📝 뉴스 제목 : 전문가 "北 '저강도 도발' 속 숨어있는 '복합위협' 간파해야"<br/>![image](https://imgnews.pstatic.net/image/origin/014/2022/07/11/4865364.jpg?type=ofullfill106_72)        🔗 [link](https://n.news.naver.com/mnews/article/014/0004865364?sid=100)<br/>이전 뉴스 : [홍준표 "이명박·이재용 등 사면해 국민 통합 해야"](https://n.news.naver.com/mnews/article/660/0000012094?sid=100)<br/>### section : economy
+📝 뉴스 제목 : 염승열 목포세관장 취임…"지역경제 활성화 역량 집중"<br/>![image](https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302708.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/001/0013302708?sid=101)<br/>이전 뉴스 : [비상경영이라는데…두자릿수 임금 인상 나선 건설사들 왜?](https://n.news.naver.com/mnews/article/374/0000294016?sid=101)<br/>### section : science
+새롭게 업데이트 된 뉴스가 없습니다.<br/>이전 뉴스 : [코딩 몰라도 돼!…'노 코드' 시대 열린다](https://n.news.naver.com/mnews/article/015/0004722653?sid=105)<br/>### section : society
+📝 뉴스 제목 : 광주 송정로 1번길에선 차보다 사람 먼저…보행자 우선도로 선정<br/>![image](https://imgnews.pstatic.net/image/origin/001/2022/07/11/13302710.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/001/0013302710?sid=102)<br/>이전 뉴스 : [반복되는 대학 내 노동자 시위...‘직접 고용’이 정답?](https://n.news.naver.com/mnews/article/018/0005264637?sid=102)<br/>### section : life
+새롭게 업데이트 된 뉴스가 없습니다.<br/>이전 뉴스 : [김안과병원, 개원 60주년 온라인 역사관 오픈](https://n.news.naver.com/mnews/article/014/0004865371?sid=103)<br/>### section : world
+📝 뉴스 제목 : 17시간 줄섰다…뉴욕 뒤흔든 K-Pop 인기<br/>![image](https://imgnews.pstatic.net/image/origin/009/2022/07/11/4989764.jpg?type=nf106_72)        🔗 [link](https://n.news.naver.com/mnews/article/009/0004989764?sid=104)<br/>이전 뉴스 : [Korean EDM fans cool off at Songkran Music Festival](https://n.news.naver.com/mnews/article/044/0000238276?sid=104)<br/>

@@ -129,7 +129,19 @@ def combine_news_latest():
             news_list.append(content)
     with open(os.path.join(BASE_DIR,'news_latest_one.json'),'w+',encoding='utf-8') as f:
         json.dump(news_list, f, ensure_ascii = False, indent='\t')
+
+def combine_news_prev():
+    news_list=[]
+    news_prev_list=['news_prev_polictics','news_prev_economy','news_prev_science','news_prev_society','news_prev_life','news_prev_world']
+    for file_name in news_prev_list:
+        with open(os.path.join(BASE_DIR, file_name+'.json'), 'r',encoding='utf-8') as f:
+            content=json.load(f)
+            news_list.append(content[0])
+    with open(os.path.join(BASE_DIR,'news_prev_one.json'),'w+',encoding='utf-8') as f:
+        json.dump(news_list, f, ensure_ascii = False, indent='\t')
+
     
 if __name__ == "__main__" :
   category()
-  combine_news_latest()
+  combine_news_latest
+  combine_news_prev()

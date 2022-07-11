@@ -53,9 +53,8 @@ jobs:
       with:
         branch: 'master'
         github_token: $ 
-        # force_with_lease: true
+        force_with_lease: true
     - name: Create issue
-      - uses: actions/checkout@v2
-      - uses: JasonEtco/create-an-issue@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -34,13 +34,18 @@ jobs:
         echo "after run scraping.py"
         cd final-project
         ls -al
+    - name: Auto Readme Generator
+      run: |
+        python3 "final-project/update-readme.py"
     - name: Commit
       run: |
         cd final-project
         ls -al
         git config --local user.name "soyoung"
         git config --local user.email "psy99326@gamil.com" # 커밋에 포함될 이름
+        git add news_latest_one.json
         git add news.json
+        git add docs/index.md # 생성한 README 파일을 스테이징
         git commit -m "Auto - Update data with Scraping" # 커밋 메세지
     - name: Push
       uses: ad-m/github-push-action@master

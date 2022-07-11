@@ -35,6 +35,7 @@ def get_request(section):
 
 # get category and url
 # section = input('"정치, 경제, 사회, 생활, 세계, 과학" 중 하나를 입력하세요.\n')
+
 section = "과학"
 req = get_request(section)
 req.encoding= None
@@ -73,18 +74,20 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
     news_latest={}
     # print(os.path.join(BASE_DIR, 'news.json'))
 
-    with open(os.path.join(BASE_DIR, 'news_latest.json'), 'w+',encoding='utf-8') as json_file:
-        json.dump(data, json_file, ensure_ascii = False, indent='\t')
+    with open(os.path.join(BASE_DIR, 'news_latest.json'), 'w+',encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii = False, indent='\t')
     with open(os.path.join(BASE_DIR, 'news.json'),'r',encoding='utf-8') as f:
         old_content=json.load(f)
+        with open(os.path.join(BASE_DIR, 'news_prev.json'), 'w+',encoding='utf-8') as f:
+            json.dump(old_content,f, ensure_ascii = False, indent='\t')
         print('* 기존의 뉴스')
         for item in old_content:
             # print(list(item.values())[0])
             news_title_oldest.append(list(item.values())[0])
         print(news_title_oldest)
         print(len(news_title_oldest))
-        with open(os.path.join(BASE_DIR, 'news_latest.json'),'r',encoding='utf-8') as f2:
-            latest_content=json.load(f2)
+        with open(os.path.join(BASE_DIR, 'news_latest.json'),'r',encoding='utf-8') as f:
+            latest_content=json.load(f)
             print('* 최신의 뉴스')
             for item in latest_content:
                 # print(list(item.values())[0])
@@ -96,10 +99,13 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
                 print('새롭게 업데이트된 뉴스가 있습니다')
                 print(latest_content[0])
                 news_latest=latest_content[0]
-                with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as json_file2:
-                    json.dump(news_latest, json_file2, ensure_ascii = False, indent='\t')
+                with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as f:
+                    json.dump(news_latest, f, ensure_ascii = False, indent='\t')
             else:
-                print('업데이트 되지 않았습니다')
+                str={'업데이트':'x'}
+                with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as f:
+                    json.dump(str, f, ensure_ascii = False, indent='\t')
+                
 
             #news_latest.json을 news.json으로 변환하는 작업
             data_file=Path(os.path.join(BASE_DIR, 'news_latest.json'))
@@ -108,5 +114,5 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
 
 
 else: 
-    with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as json_file:
-        json.dump(data, json_file, ensure_ascii = False, indent='\t')
+    with open(os.path.join(BASE_DIR, 'news.json'), 'w+',encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii = False, indent='\t')

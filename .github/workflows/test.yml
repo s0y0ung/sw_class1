@@ -1,6 +1,6 @@
-name: 최신 뉴스 정보 가져오기
+name: 최신 뉴스 정보 가져오기 
 
-# PR이 만들어졌거나 master 브랜치에 머지되어 올라갈 때 수행합니다.
+
 on:
   workflow_dispatch: 
   

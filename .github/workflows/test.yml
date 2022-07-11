@@ -7,6 +7,8 @@ on:
 jobs:
   get news info:
     runs-on: ubuntu-latest
+
+    steps: 
     - name: Get Latest news info
       uses: s0y0ung/sw_class1@v1.0.0
 

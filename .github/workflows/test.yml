@@ -1,0 +1,14 @@
+name: 최신 뉴스 정보 가져오기 
+
+
+on:
+  workflow_dispatch: 
+  
+jobs:
+  get news info:
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Get Latest news info
+      uses: s0y0ung/sw_class1@v1.0.0
+

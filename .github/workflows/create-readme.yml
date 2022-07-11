@@ -30,7 +30,8 @@ jobs:
           git branch -r
           git add docs/index.md # 생성한 README 파일을 스테이징
           git status 
-          git commit -m "auto - update readme file" # 커밋 메세지
+          git commit -m "auto - update index file" # 커밋 메세지
+
       
       - name: Push
         uses: ad-m/github-push-action@master

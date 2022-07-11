@@ -102,7 +102,7 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news.json'))):
                 with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as f:
                     json.dump(news_latest, f, ensure_ascii = False, indent='\t')
             else:
-                str={'업데이트':'X'}
+                str={'업데이트':'x'}
                 with open(os.path.join(BASE_DIR, 'news_latest_one.json'), 'w+',encoding='utf-8') as f:
                     json.dump(str, f, ensure_ascii = False, indent='\t')
                 

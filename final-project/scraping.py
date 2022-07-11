@@ -143,5 +143,5 @@ def combine_news_prev():
     
 if __name__ == "__main__" :
   category()
-  combine_news_latest
+  combine_news_latest()
   combine_news_prev()

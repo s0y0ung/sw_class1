@@ -1,5 +1,17 @@
 [
 	{
+		"name": "가장 선호하는 해외여행지?… “2위 베트남, 1위 ‘이곳’”",
+		"url": "https://n.news.naver.com/mnews/article/023/0003703108?sid=103",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/023/2022/07/12/3703108.jpg?type=nf106_72",
+		"sec": "life"
+	},
+	{
+		"name": "[날씨] 오늘도 열대야·무더위…오전 대부분 25℃ 안팎",
+		"url": "https://n.news.naver.com/mnews/article/052/0001762786?sid=103",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/12/1762786.jpg?type=nf106_72",
+		"sec": "life"
+	},
+	{
 		"name": "나전칠기로 돈 번 청년, 석유회사 ‘셸’ 창업해 유럽·아시아 석권",
 		"url": "https://n.news.naver.com/mnews/article/023/0003703104?sid=103",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/023/2022/07/12/3703104.jpg?type=nf106_72",
@@ -33,18 +45,6 @@
 		"name": "뚫린 평면 속 비치는 '거북이'와 '호랑이'",
 		"url": "https://n.news.naver.com/mnews/article/654/0000014670?sid=103",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/654/2022/07/12/14669.jpg?type=nf106_72",
-		"sec": "life"
-	},
-	{
-		"name": "동유럽 여행길 따라 붓으로 채운 풍경",
-		"url": "https://n.news.naver.com/mnews/article/654/0000014669?sid=103",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/654/2022/07/12/14667.jpg?type=nf106_72",
-		"sec": "life"
-	},
-	{
-		"name": "\"천주교 성직자 중심주의 탈피·노인·청년 신자 관심 가져야\"",
-		"url": "https://n.news.naver.com/mnews/article/654/0000014668?sid=103",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/654/2022/07/12/14666.jpg?type=nf106_72",
 		"sec": "life"
 	}
 ]

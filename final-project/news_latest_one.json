@@ -1,32 +1,38 @@
 [
 	{
-		"업데이트": "x"
+		"name": "무호적 독립유공자 156인 정부, 대한민국 국적 부여",
+		"url": "https://n.news.naver.com/mnews/article/022/0003714087?sid=100",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/12/11300173.jpg?type=ofullfill106_72",
+		"sec": "polictics"
 	},
 	{
-		"name": "골드만삭스, 옥시덴탈 페트롤리움 매수→중립 '하향'",
-		"url": "https://n.news.naver.com/mnews/article/215/0001042031?sid=101",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/215/2022/07/12/1042031.jpg?type=nf106_72",
+		"name": "엡손, 사무공간 정리 돕는 '사무용 라벨프린터' 2종 출시",
+		"url": "https://n.news.naver.com/mnews/article/003/0011298177?sid=101",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/003/2022/07/12/11298177.jpg?type=nf106_72",
 		"sec": "economy"
 	},
 	{
-		"업데이트": "x"
+		"name": "SKT·안랩블록체인컴퍼니·아톰릭스랩, 웹3 지갑 공동 개발한다",
+		"url": "https://n.news.naver.com/mnews/article/022/0003714139?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/12/11300174.jpg?type=nf106_72",
+		"sec": "science"
 	},
 	{
-		"name": "기상청 \"제주 서귀포 동쪽서 규모 2.2 지진 발생\"",
-		"url": "https://n.news.naver.com/mnews/article/001/0013303620?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/12/13303620.jpg?type=nf106_72",
+		"name": "강수현 “옥정 물류창고 직권취소…법적대응 강구”",
+		"url": "https://n.news.naver.com/mnews/article/014/0004865592?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/014/2022/07/12/4865592.jpg?type=nf106_72",
 		"sec": "society"
 	},
 	{
-		"name": "가장 선호하는 해외여행지?… “2위 베트남, 1위 ‘이곳’”",
-		"url": "https://n.news.naver.com/mnews/article/023/0003703108?sid=103",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/023/2022/07/12/3703108.jpg?type=nf106_72",
+		"name": "자살사망자 87%가 정신질환… 치료·상담 15%에 불과",
+		"url": "https://n.news.naver.com/mnews/article/022/0003714128?sid=103",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/022/2022/07/12/3714128.jpg?type=nf106_72",
 		"sec": "life"
 	},
 	{
-		"name": "철통같던 美 이란 제재…암호화폐거래소에 뚫렸다",
-		"url": "https://n.news.naver.com/mnews/article/015/0004722929?sid=104",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/077/2022/07/12/5650448.jpg?type=nf106_72",
+		"name": "美 상원 원내대표, 코로나 양성…하위변이 확산 속도",
+		"url": "https://n.news.naver.com/mnews/article/056/0011300175?sid=104",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/12/11300175.jpg?type=nf106_72",
 		"sec": "world"
 	}
 ]

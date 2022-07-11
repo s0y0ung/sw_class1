@@ -1,5 +1,23 @@
 [
 	{
+		"name": "이재명 “요즘 금주”…박주민은 “2주 전 새벽까지 같이 마셔”",
+		"url": "https://n.news.naver.com/mnews/article/011/0004075071?sid=100",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/011/2022/07/11/4075071.jpg?type=ofullfill106_72",
+		"sec": "polictics"
+	},
+	{
+		"name": "美 국무부 선임고문 방한…“한미동맹 강화안 논의”",
+		"url": "https://n.news.naver.com/mnews/article/018/0005264921?sid=100",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/018/2022/07/11/5264921.jpg?type=ofullfill106_72",
+		"sec": "polictics"
+	},
+	{
+		"name": "[나이트포커스] 또 깨진 40%...속절없는 추락",
+		"url": "https://n.news.naver.com/mnews/article/052/0001762753?sid=100",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/11/1762753.jpg?type=ofullfill106_72",
+		"sec": "polictics"
+	},
+	{
 		"name": "미 국무부 선임 고문 방한…\"한미동맹 강화와 북핵 문제 조율\"",
 		"url": "https://n.news.naver.com/mnews/article/055/0000985282?sid=100",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/018/2022/07/11/5264920.jpg?type=ofullfill106_72",
@@ -27,24 +45,6 @@
 		"name": "민주, 종부세→국토균형세로 명칭 변경 추진... 일각 “이름 세탁하나”",
 		"url": "https://n.news.naver.com/mnews/article/023/0003703092?sid=100",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/082/2022/07/11/1164438.jpg?type=ofullfill106_72",
-		"sec": "polictics"
-	},
-	{
-		"name": "與 반도체특위, 내일 인재양성 현장行…'안보문란 조사TF' 발족",
-		"url": "https://n.news.naver.com/mnews/article/003/0011298157?sid=100",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/11/1762746.jpg?type=ofullfill106_72",
-		"sec": "polictics"
-	},
-	{
-		"name": "윤 대통령, 코로나 재유행에 \"과학방역 기조 아래 원팀협업\"",
-		"url": "https://n.news.naver.com/mnews/article/082/0001164438?sid=100",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/081/2022/07/11/3286347.jpg?type=ofullfill106_72",
-		"sec": "polictics"
-	},
-	{
-		"name": "與, \"野 '임기 일치법' 공감...수사 중단 조건 안 돼\"",
-		"url": "https://n.news.naver.com/mnews/article/052/0001762746?sid=100",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/023/2022/07/11/3703088.jpg?type=ofullfill106_72",
 		"sec": "polictics"
 	}
 ]

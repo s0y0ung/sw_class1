@@ -34,5 +34,6 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
     else:
       readme.write("새롭게 업데이트 된 뉴스가 없습니다.<br/>")
       
-    readme.write("이전 뉴스 : [" + prev_title + "]("+ prev_url + ")<br/><br/><br/>")
+    readme.write("이전 뉴스 : [" + prev_title + "]("+ prev_url + ") ")
+    readme.write("<br/><br/><br/>")
     readme.close()

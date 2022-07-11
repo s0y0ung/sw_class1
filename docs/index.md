@@ -1,5 +1,3 @@
-<div style="border: 2px solid #34a1eb; padding:10px;">
-
 ## section : polictics
 
 📝 뉴스 제목 : 전문가 "北 '저강도 도발' 속 숨어있는 '복합위협' 간파해야"
@@ -8,11 +6,9 @@
 
 이전 뉴스 : [민주당 “현 정권, 정치보복 수사 포기 안 해”…강력 대응 예고](https://n.news.naver.com/mnews/article/056/0011299821?sid=100)
 
-</div>
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;">
 
 ## section : economy
 
@@ -22,11 +18,9 @@
 
 이전 뉴스 : [와이케이스틸 본사 등 부산→당진 이전 추진…3천억원 투자 협약](https://n.news.naver.com/mnews/article/001/0013302774?sid=101)
 
-</div>
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;">
 
 ## section : science
 
@@ -34,11 +28,9 @@
 
 이전 뉴스 : [SK텔레콤, 5.9만원 24GB '5G 중간요금제' 선보인다](https://n.news.naver.com/mnews/article/417/0000831242?sid=105)
 
-</div>
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;">
 
 ## section : society
 
@@ -48,11 +40,9 @@
 
 이전 뉴스 : [와이케이스틸 본사 등 부산→당진 이전 추진…3천억원 투자 협약](https://n.news.naver.com/mnews/article/001/0013302774?sid=102)
 
-</div>
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;">
 
 ## section : life
 
@@ -60,11 +50,9 @@
 
 이전 뉴스 : [[스타의 책] 전범선, ‘용담유사: 수운이 지은 하느님 노래’](https://n.news.naver.com/mnews/article/119/0002619856?sid=103)
 
-</div>
 
 
 
-<div style="border: 2px solid #34a1eb; padding:10px;">
 
 ## section : world
 
@@ -74,7 +62,7 @@
 
 이전 뉴스 : [통일교 “아베 총격범 母 현재 신자 아냐…월 1회 교회행사 참석”](https://n.news.naver.com/mnews/article/020/0003439283?sid=104)
 
-</div>
+
 
 
 

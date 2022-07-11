@@ -27,7 +27,9 @@ jobs:
       - name: md파일 commit하기
         run: |
           ls -al
-          git add docs/index.md # 생성한 README 파일을 스테이징 
+          git branch -r
+          git add docs/index.md # 생성한 README 파일을 스테이징
+          git status 
           git commit -m "auto - update readme file" # 커밋 메세지
       
       - name: Push

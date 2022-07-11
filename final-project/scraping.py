@@ -99,7 +99,7 @@ def category():
 
                     if(news_title_latest[0]!=news_title_oldest[0]):
                         print('* 새롭게 업데이트된'+sec+' 분야의 뉴스가 있습니다')
-                        print(latest_content[0])
+                        # print(latest_content[0])
                         news_latest=latest_content[0]
                         with open(os.path.join(BASE_DIR, file_name_news_latest_one), 'w+',encoding='utf-8') as f:
                             json.dump(news_latest, f, ensure_ascii = False, indent='\t')

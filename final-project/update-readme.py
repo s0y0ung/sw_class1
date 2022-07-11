@@ -21,7 +21,7 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
     prev_title=prev_item['name']
     prev_url=prev_item['url']
     prev_sec=prev_item['sec']
-    readme.write("### section : " + prev_sec+"<br/>")
+    readme.write(" ### section : " + prev_sec+"<br/>")
     # 업데이트 되었는지 확인
     if 'name' in new_item:
       new_title=new_item['name']

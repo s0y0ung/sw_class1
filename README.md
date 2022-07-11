@@ -24,4 +24,4 @@
 ## 실습
 1-5주차 수업 이후 파이널 프로젝트를 진행하였습니다.
 
-update and check the latest news라는 깃허브 액션을 배포하였습니다
+[Get Latest news info](https://github.com/marketplace/actions/get-latest-news-info) 라는 깃허브 액션을 배포하였습니다

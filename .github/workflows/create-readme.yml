@@ -26,8 +26,8 @@ jobs:
           git config --local user.name "djc06048" # 커밋한 사람 이름
       - name: md파일 commit하기
         run: |
+          cd docs
           ls -al
-          git checkout gh-pages
           git add index.md # 생성한 README 파일을 스테이징 
           git commit -m "auto - update readme file" # 커밋 메세지
       

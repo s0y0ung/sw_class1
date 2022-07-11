@@ -3,7 +3,7 @@ name: hw4 깃허브 액션 연습하기
 # PR이 만들어졌거나 master 브랜치에 머지되어 올라갈 때 수행합니다.
 on:
   push:
-    branches: [master]
+    branches: [dev]
   pull_request:
     branches:
       - "**"

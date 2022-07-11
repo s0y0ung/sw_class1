@@ -29,7 +29,7 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
       new_imageurl=new_item['imgurl']
 
       readme.write("📝 뉴스 제목 : " + new_title+"\n\n")
-      readme.write("![image]("+ new_imageurl+")" +"\n\n")
+      readme.write("![image]("+ new_imageurl+")")
       readme.write("🔗 [link]("+ new_url + ")\n\n")
     else:
       readme.write("새롭게 업데이트 된 뉴스가 없습니다.\n\n")

@@ -17,7 +17,7 @@ if(os.path.isfile(os.path.join(BASE_DIR, 'news_latest_one.json'))):
       imageurl=item['imgurl']
 
       readme = open(os.path.join('docs', 'index.md'), "a")
-      readme.write("📝 뉴스 제목 : " + title+"\n")
-      readme.write("![ 뉴스 이미지] ("+ imageurl+")" +"\n")
-      readme.write(" 🔗 뉴스 링크 : "+ url + "\n")
+      readme.write("📝 ### 뉴스 제목 : " + title+"\n")
+      readme.write("### 뉴스 이미지 : ![image]("+ imageurl+")" +"\n")
+      readme.write("🔗 ### 뉴스 링크 : [link]("+ url + ")\n")
       readme.close()

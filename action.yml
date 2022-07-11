@@ -2,6 +2,7 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: Get Latest news info   # 워크플로우 이름 지정
+description: Update and check latest news information
 on:
   schedule:
     - cron:  '*/5 * * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
@@ -51,3 +52,6 @@ jobs:
         branch: 'master'
         github_token: $ 
         force_with_lease: true
+branding:
+  icon: 'activity'
+  color: 'blue'

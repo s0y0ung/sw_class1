@@ -2,10 +2,12 @@
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
 name: Run Scraper - Update data # 워크플로우 이름 지정
-
-on:
-  schedule:
-    - cron:  '*/5 * * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
+on: [push]
+  # schedule:
+  #   - cron:  '*/5 * * * *' # 주기적으로 실행하기 위한 스케줄링 - cron 설정
+permissions:
+  contents: read
+  issues: write
 jobs:
   build:
 
@@ -52,3 +54,8 @@ jobs:
         branch: 'master'
         github_token: $ 
         force_with_lease: true
+    - name: Create issue
+      - uses: actions/checkout@v2
+      - uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

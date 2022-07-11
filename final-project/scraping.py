@@ -86,16 +86,16 @@ def category():
                 for item in old_content:
                     # print(list(item.values())[0])
                     news_title_oldest.append(list(item.values())[0])
-                print(news_title_oldest)
-                print(len(news_title_oldest))
+                # print(news_title_oldest)
+                # print(len(news_title_oldest))
                 with open(os.path.join(BASE_DIR, file_name_news_latest),'r',encoding='utf-8') as f:
                     latest_content=json.load(f)
                     print('* 최신의 뉴스')
                     for item in latest_content:
                         # print(list(item.values())[0])
                         news_title_latest.append(list(item.values())[0])
-                    print(news_title_latest)
-                    print(len(news_title_latest))
+                    # print(news_title_latest)
+                    # print(len(news_title_latest))
 
                     if(news_title_latest[0]!=news_title_oldest[0]):
                         print('* 새롭게 업데이트된'+sec+' 분야의 뉴스가 있습니다')

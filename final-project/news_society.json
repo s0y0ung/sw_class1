@@ -1,6 +1,42 @@
 [
 	{
-		"name": "코로나 확진자 3만명 넘었다…지난주 ‘2배’",
+		"name": "기상청 \"제주 서귀포 동쪽서 규모 2.2 지진 발생\"",
+		"url": "https://n.news.naver.com/mnews/article/001/0013303620?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/12/13303620.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "감염병자문위 첫 회의...\"고위험군 보호, 중증·사망 억제 중요\"",
+		"url": "https://n.news.naver.com/mnews/article/052/0001762788?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/12/1762788.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "\"교차로 우회전 할 때 일단 정지\"...오늘부터 시행",
+		"url": "https://n.news.naver.com/mnews/article/052/0001762787?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/12/1762787.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "기상청 \"제주 서귀포 동쪽서 규모 2.1 지진 발생\"",
+		"url": "https://n.news.naver.com/mnews/article/001/0013303619?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/12/13303619.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "과천소방서, 소방관 극단선택 경찰에 수사의뢰",
+		"url": "https://n.news.naver.com/mnews/article/003/0011298173?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/003/2022/07/12/11298173.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "일주일새 또 더블링... 신규 확진 8주만에 3만명 넘었다",
+		"url": "https://n.news.naver.com/mnews/article/023/0003703107?sid=102",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/023/2022/07/12/3703107.jpg?type=nf106_72",
+		"sec": "society"
+	},
+	{
+		"name": "코로나 확진자 3만5천명 넘었다…1주 단위 ‘더블링’ 계속",
 		"url": "https://n.news.naver.com/mnews/article/028/0002598229?sid=102",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/028/2022/07/12/2598229.jpg?type=nf106_72",
 		"sec": "society"
@@ -21,36 +57,6 @@
 		"name": "현대차 노사, 국내 투자계획 합의…29년 만에 새 공장 건설",
 		"url": "https://n.news.naver.com/mnews/article/001/0013303617?sid=102",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/001/2022/07/12/13303617.jpg?type=nf106_72",
-		"sec": "society"
-	},
-	{
-		"name": "파주시의회 양당 갈등고조…파주시장 중재 등판",
-		"url": "https://n.news.naver.com/mnews/article/014/0004865591?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/014/2022/07/12/4865591.jpg?type=nf106_72",
-		"sec": "society"
-	},
-	{
-		"name": "소득하위 절반에만 격리 생활지원금 지급",
-		"url": "https://n.news.naver.com/mnews/article/052/0001762782?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/052/2022/07/12/1762782.jpg?type=nf106_72",
-		"sec": "society"
-	},
-	{
-		"name": "서해안고속도로 영광2터널서 화물차끼리 추돌‥ 4명 부상",
-		"url": "https://n.news.naver.com/mnews/article/214/0001208365?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/214/2022/07/12/1208365.jpg?type=nf106_72",
-		"sec": "society"
-	},
-	{
-		"name": "고속도로서 화물차 사고…도로 위 쏟아진 수박 수백 개",
-		"url": "https://n.news.naver.com/mnews/article/055/0000985288?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/469/2022/07/12/685584.jpg?type=nf106_72",
-		"sec": "society"
-	},
-	{
-		"name": "경찰 국수본부장, '검경협의체' 직격... \"대등한 관계서 논의해야\"",
-		"url": "https://n.news.naver.com/mnews/article/469/0000685584?sid=102",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/214/2022/07/12/1208364.jpg?type=nf106_72",
 		"sec": "society"
 	}
 ]

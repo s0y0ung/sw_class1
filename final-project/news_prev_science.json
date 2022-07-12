@@ -1,62 +1,56 @@
 [
 	{
+		"name": "SKT·안랩블록체인컴퍼니·아톰릭스랩, 웹3 지갑 공동 개발한다",
+		"url": "https://n.news.naver.com/mnews/article/022/0003714139?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/12/11300174.jpg?type=nf106_72",
+		"sec": "science"
+	},
+	{
+		"name": "제주 서귀포시 부근 해역에서 규모 2.2 지진",
+		"url": "https://n.news.naver.com/mnews/article/056/0011300174?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/022/2022/07/12/3714083.jpg?type=nf106_72",
+		"sec": "science"
+	},
+	{
+		"name": "포항공대 홍석봉 교수 亞 첫 브렉상 단독 수상",
+		"url": "https://n.news.naver.com/mnews/article/022/0003714083?sid=105",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/12/3029657.jpg?type=nf106_72",
+		"sec": "science"
+	},
+	{
 		"name": "[올쇼TV] \"하이브리드 멀티 클라우드를 고려한 멀티 클러스터 통합 관리 전략\" 7월 26일 생방송",
 		"url": "https://n.news.naver.com/mnews/article/030/0003029657?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/12/3029657.jpg?type=nf106_72",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/081/2022/07/12/3286362.jpg?type=nf106_72",
 		"sec": "science"
 	},
 	{
 		"name": "물 속·물 밖에서 똑같이 선명한 초소형 카메라 개발",
 		"url": "https://n.news.naver.com/mnews/article/081/0003286362?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/081/2022/07/12/3286362.jpg?type=nf106_72",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/12/3029656.jpg?type=nf106_72",
 		"sec": "science"
 	},
 	{
 		"name": "[올쇼TV] \"공공데이터 품질관리 수준평가 최적의 대응 가이드\" 7월 19일 생방송",
 		"url": "https://n.news.naver.com/mnews/article/030/0003029656?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/030/2022/07/12/3029656.jpg?type=nf106_72",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/016/2022/07/12/2014288.jpg?type=nf106_72",
 		"sec": "science"
 	},
 	{
 		"name": "“360도 전방위 촬영 가능” 초소형 수륙양용 카메라 나왔다",
 		"url": "https://n.news.naver.com/mnews/article/016/0002014288?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/016/2022/07/12/2014288.jpg?type=nf106_72",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/014/2022/07/12/4865589.jpg?type=nf106_72",
 		"sec": "science"
 	},
 	{
 		"name": "농게 닮은 360도 촬영 카메라가 나왔다",
 		"url": "https://n.news.naver.com/mnews/article/014/0004865589?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/014/2022/07/12/4865589.jpg?type=nf106_72",
+		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/11/11300164.jpg?type=nf106_72",
 		"sec": "science"
 	},
 	{
 		"name": "앞에선 ‘중간요금제 공감’, 뒤로는 ‘고가요금제 유도’",
 		"url": "https://n.news.naver.com/mnews/article/056/0011300164?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/11/11300164.jpg?type=nf106_72",
-		"sec": "science"
-	},
-	{
-		"name": "UNIST-울산의대, 의과학자 양성 나선다",
-		"url": "https://n.news.naver.com/mnews/article/056/0011300139?sid=105",
 		"imgurl": "https://imgnews.pstatic.net/image/origin/056/2022/07/11/11300139.jpg?type=nf106_72",
-		"sec": "science"
-	},
-	{
-		"name": "어메이즈VR, SM엔터와 글로벌 VR 콘서트 ‘조인트 벤처’ 설립",
-		"url": "https://n.news.naver.com/mnews/article/009/0004990020?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/009/2022/07/11/4990020.jpg?type=nf106_72",
-		"sec": "science"
-	},
-	{
-		"name": "14일 새벽 3시 38분 ‘슈퍼문’ 볼 수 있다",
-		"url": "https://n.news.naver.com/mnews/article/081/0003286352?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/081/2022/07/11/3286352.jpg?type=nf106_72",
-		"sec": "science"
-	},
-	{
-		"name": "80억원 횡령 의혹 받은 채 청산된 크로노스 다오…결국 소송전 돌입",
-		"url": "https://n.news.naver.com/mnews/article/421/0006210678?sid=105",
-		"imgurl": "https://imgnews.pstatic.net/image/origin/421/2022/07/11/6210678.jpg?type=nf106_72",
 		"sec": "science"
 	}
 ]
